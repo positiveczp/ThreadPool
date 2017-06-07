@@ -5,4 +5,11 @@
 * Reserves one task for signaling the queue is full.
 * Stops and joins all worker threads on destroy.
 
-## Possible enhancements
+# Possible enhancements
+* Lazy creation of threads (easy)
+* Reduce number of threads automatically (hard)
+* Unlimited queue size (medium)
+* Kill worker threads on destroy (hard, dangerous)
+* Support Windows API (medium)
+* Reduce locking contention (medium/hard)
+
