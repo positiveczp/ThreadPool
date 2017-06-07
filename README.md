@@ -6,6 +6,7 @@
 * Stops and joins all worker threads on destroy.
 
 # Possible enhancements
+### The API contains addtional unused 'flags' parameters that would allow some additional options:
 * Lazy creation of threads (easy)
 * Reduce number of threads automatically (hard)
 * Unlimited queue size (medium)
